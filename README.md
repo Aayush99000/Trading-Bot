@@ -1,5 +1,10 @@
 # Trading-Bot
-An AI-powered trading bot for cryptocurrency and forex markets, built with Python and machine learning. This bot analyzes market trends, executes trades automatically, and optimizes strategies using AI-driven decision-making.
+The project is aimed at developing an intelligent trading bot for automated trading cryptocurrencies using state-of-the-art machine learning (ML) algorithms and feature engineering. The project provides the following major functionalities:
+*Defining derived features using custom (Python) functions including technical indicators
+*Analyzing historic data and training machine learning models in batch off-line mode
+*Analyzing the predicted scores and choosing best signal parameters
+*Signaling service which is regularly requests new data from the exchange and generates buy-sell signals by applying the previously trained models in on-line mode
+*Trading service which does real trading by buying or selling the assets according to the generated signals
 
 # Technical Analysis (TA): 
 Uses indicators like RSI, MACD, Bollinger Bands, etc.

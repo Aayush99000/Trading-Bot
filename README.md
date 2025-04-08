@@ -1,9 +1,13 @@
 # Trading-Bot
 The project is aimed at developing an intelligent trading bot for automated trading cryptocurrencies using state-of-the-art machine learning (ML) algorithms and feature engineering. The project provides the following major functionalities:
-*Defining derived features using custom (Python) functions including technical indicators
-*Analyzing historic data and training machine learning models in batch off-line mode
-*Analyzing the predicted scores and choosing best signal parameters
-*Signaling service which is regularly requests new data from the exchange and generates buy-sell signals by applying the previously trained models in on-line mode
+*Defining derived features using custom (Python) functions including technical indicators  
+
+*Analyzing historic data and training machine learning models in batch off-line mode  
+
+*Analyzing the predicted scores and choosing best signal parameters  
+
+*Signaling service which is regularly requests new data from the exchange and generates buy-sell signals by applying the previously trained models in on-line mode  
+
 *Trading service which does real trading by buying or selling the assets according to the generated signals
 
 # Technical Analysis (TA): 
